@@ -53,9 +53,7 @@ This Stock Application is a web-based platform developed as part of my first-yea
 4. **Monitor Stock:**
    - Keep track of stock levels in real-time and receive alerts for low stock items.
 
-## Screenshots
 
-*(Include screenshots of your application here to give users a visual overview.)*
 
 ## Contribution
 
