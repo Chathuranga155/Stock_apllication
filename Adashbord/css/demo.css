@@ -1,0 +1,111 @@
+
+
+.easion-demo-icons {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
+  .easion-demo-icons .icon {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    width: 250px;
+    height: 50px;
+    padding: 8px 8px 8px 0; }
+    .easion-demo-icons .icon i {
+      font-size: 30px;
+      width: 40px;
+      margin-right: 10px; }
+    .easion-demo-icons .icon span {
+      font-size: 13px;
+      opacity: .9; }
+
+.stats-title:hover{
+  font-size: 20px;
+}
+
+#totlec_color {
+  animation: animateBg 3s linear infinite;
+  background-image: linear-gradient(90deg,#bd4faf,#5794db,#c6ce63,#bd4faf,#5794db);
+  background-size: 400% 100%;
+}
+@keyframes animateBg {
+  0% { background-position: 0% 0%; }
+  100% { background-position: 100% 0%; }
+}
+
+#stock_color  {
+  animation: animateBg 3s linear infinite;
+  background-image: linear-gradient(90deg,#2fc649,#8f926d,#55c764,#2fc649,#8f926d);
+  background-size: 400% 100%;
+}
+@keyframes animateBg {
+  0% { background-position: 100% 0%; }
+  100% { background-position: 0% 0%; }
+}
+
+
+#bids_color{
+  animation: animateBg 4s linear infinite;
+  background-image: linear-gradient(90deg,#e82e24,#c0afa8dc,#f1453c,#af9183);
+  background-size: 300% 100%;
+}
+@keyframes animateBg {
+  0% { background-position: 100% 0%; }
+  100% { background-position: 0% 0%; }
+}
+
+
+.d_row{
+  background: rgb(22,25,65);
+  background: linear-gradient(0deg, rgba(22,25,65,0.9864145487296481) 9%, rgba(71,71,102,1) 69%); 
+  padding: 20px;
+}
+
+.fa-solid, .fa{
+  color: aliceblue;
+}
+
+.fa-solid:hover , .fa:hover{
+  color:#424142;
+}
+
+#auction_color{
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 44%, rgba(252,176,69,1) 100%); 
+
+
+}
+
+#ac_closed{
+  background: rgb(252,101,13);
+  background: linear-gradient(90deg, rgba(252,101,13,1) 5%, rgba(27,190,62,1) 80%); 
+
+
+}
+
+#ap_pending{
+
+  background: rgb(177,153,193);
+  background: linear-gradient(90deg, rgba(177,153,193,1) 0%, rgba(253,29,29,1) 46%, rgba(235,22,83,1) 100%); 
+  
+}

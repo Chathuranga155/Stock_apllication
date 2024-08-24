@@ -1,0 +1,98 @@
+
+
+.easion-demo-icons {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
+  .easion-demo-icons .icon {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    width: 250px;
+    height: 50px;
+    padding: 8px 8px 8px 0; }
+    .easion-demo-icons .icon i {
+      font-size: 30px;
+      width: 40px;
+      margin-right: 10px; }
+    .easion-demo-icons .icon span {
+      font-size: 13px;
+      opacity: .9; }
+
+
+.dash-nav-item{
+  text-decoration: none;
+}
+
+
+#stock_color{
+  animation: animateBg 3s linear infinite;
+  background-image: linear-gradient(90deg,#bd4faf,#5794db,#c6ce63,#bd4faf,#5794db);
+  background-size: 400% 100%;
+}
+@keyframes animateBg {
+  0% { background-position: 0% 0%; }
+  100% { background-position: 100% 0%; }
+}
+
+#bid_color
+  {
+    animation: animateBg 3s linear infinite;
+    background-image: linear-gradient(90deg,#2fc649,#8f926d,#55c764,#2fc649,#8f926d);
+    background-size: 400% 100%;
+  }
+  @keyframes animateBg {
+    0% { background-position: 100% 0%; }
+    100% { background-position: 0% 0%; }
+  }
+
+  #open_color{
+    animation: animateBg 4s linear infinite;
+    background-image: linear-gradient(90deg,#e82e24,#c0afa8dc,#f1453c,#af9183);
+    background-size: 300% 100%;
+  }
+  @keyframes animateBg {
+    0% { background-position: 100% 0%; }
+    100% { background-position: 0% 0%; }
+  }
+
+
+  #card_auction{
+    background-color:rgba(78, 71, 102, 0.582);
+  }
+
+
+  #bid_alert{
+    background-color: #8f926d;
+  }
+
+  #ct_color{
+    animation: animateBg 4s linear infinite;
+    background-image: linear-gradient(90deg,#463964,#c0afa8dc,#283477a4,#af9183);
+    background-size: 300% 100%;
+  }
+  @keyframes animateBg {
+    0% { background-position: 100% 0%; }
+    100% { background-position: 0% 0%; }
+  }
+  
